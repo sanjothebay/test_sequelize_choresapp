@@ -6,6 +6,10 @@ module.exports = function (sequelize, DataTypes) {
     len: [1, 150],
     chore_done: DataTypes.BOOLEAN,
     defaultValue: false,
+    createdAT: DataTypes.DATE,
+    allowNull: false,
+    updatedAt: DataTypes.DATE,
+    allowNull: false,
     foreignKey: DataTypes.INTEGER,
     allowNull: false,
   });
